@@ -47,5 +47,8 @@ public class StartGameState : State
 
 # SceneChanger Prefab
 
-Manages fade-in/fade-out when entering/leaving a scene
-Call `SceneChanger.Instance.ChangeScene(sceneName)` to change scenes.
+Manages fade-in/fade-out when entering/leaving a scene.
+
+It auto-fades in when the scene loads.
+
+Call `SceneChanger.Instance.ChangeScene(sceneName)` to fade-out and then change scenes.
