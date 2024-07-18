@@ -10,6 +10,10 @@ into your project into the assets folder. You're also going to need to add this 
 
 - git+https://github.com/jeffreylanters/unity-tweens
 
+# Ball and Paddle
+
+Includes a Ball, Paddle and PlayfieldBoundary prefab
+
 # State Machine
 
 Includes StateMachine.cs and State.cs. Inherit your states from State.cs and place them on child gameObjects beneath StateMachine.
